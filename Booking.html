@@ -9,33 +9,23 @@
 <body>
     <header>
         <h1>Hotel Booking</h1>
+        <div class="login-box" onclick="location.href='login.html';">เข้าสู่ระบบ</div>
+        <div class="regis-box" onclick="location.href='regis.html';">สร้างบัญชี</div>
     </header>
     <main>
+        <div class="container">
+            <div class="input-box">
+                <label for="checkin">Check-in Date:</label>
+                <input type="date" id="checkin" name="checkin" required style="margin-top: 10px;">
+            </div>
+            <div class="input-box">
+                <label for="checkout">Check-out Date:</label>
+                <input type="date" id="checkout" name="checkout" required style="margin-top: 10px;">
+            </div>
+            <div class="input-box">
+                <label for="numPeople">Number of People:</label>
+                <input type="number" id="numPeople" name="numPeople" required style="margin-top: 10px;">
+            </div>
+        </div>
         <form action="submit_booking.php" method="POST">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="checkin">Check-in Date:</label>
-            <input type="date" id="checkin" name="checkin" required>
-
-            <label for="checkout">Check-out Date:</label>
-            <input type="date" id="checkout" name="checkout" required>
-
-            <label for="roomtype">Room Type:</label>
-            <select id="roomtype" name="roomtype">
-                <option value="single">Single</option>
-                <option value="double">Double</option>
-                <option value="suite">Suite</option>
-            </select>
-
-            <button type="submit">Book Now</button>
-        </form>
-    </main>
-    <footer>
-        <p>&copy; 2024 Hotel Booking</p>
-    </footer>
-</body>
-</html>
+            

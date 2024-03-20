@@ -5,31 +5,66 @@ body {
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+    background-color: #ffffff;
+    color: #1754d6;
+    padding: 1px;
+    text-align: left;
+    padding-left: 100px;
+    top: 10px;
+    position: relative;
+}
+.login-box {
+    position: absolute;
+    top: 30px; /* ระยะห่างจากด้านบน */
+    right: 40px; /* ระยะห่างจากด้านขวา */
+    padding: 7px 12px; /* ขนาดของกล่อง */
+    background-color: #144bc3; /* สีพื้นหลัง */
+    color: #fff; /* สีข้อความ */
+    border-radius: 5px; /* ทำให้มีเส้นโค้งขอบ */
+    cursor: pointer; /* เปลี่ยนเป็นเคอร์เซอร์เมื่อนำเมาส์ไปวาง */
+    font-size: 14px;
 }
 
-main {
-    padding: 20px;
+.login-box:hover {
+    background-color: #555; /* สีพื้นหลังเมื่อ hover */
+}
+.regis-box {
+    position: absolute;
+    top: 30px; /* ระยะห่างจากด้านบน */
+    right: 150px; /* ระยะห่างจากด้านขวา */
+    padding: 7px 12px; /* ขนาดของกล่อง */
+    background-color: #144bc3; /* สีพื้นหลัง */
+    color: #fff; /* สีข้อความ */
+    border-radius: 5px; /* ทำให้มีเส้นโค้งขอบ */
+    cursor: pointer; /* เปลี่ยนเป็นเคอร์เซอร์เมื่อนำเมาส์ไปวาง */
+    font-size: 14px;
 }
 
-form {
-    max-width: 400px;
-    margin: 0 auto;
+
+.regis-box:hover {
+    background-color: #555; /* สีพื้นหลังเมื่อ hover */
 }
 
-label {
-    display: block;
-    margin-bottom: 5px;
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #214694;
+    color: #ffffff;
+    padding: 15px;
+}
+
+.input-box {
+    margin-right: 20px;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="date"],
+input[type="number"],
 select {
-    width: 100%;
+    width: 200px;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
