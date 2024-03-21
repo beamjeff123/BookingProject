@@ -121,8 +121,31 @@ button:hover {
     padding-left: 2px;
 
 }
+.large-text {
+    font-size: 45px; 
+    font-weight: lighter; 
+    margin-top: 150px;
+    color: #0fac07;  
+    text-align: center;
+    letter-spacing: 1px;
+}
+.under-text {
+    font-size: 25px; 
+    font-weight: lighter; 
+    margin-top: 50px;
+    color: #b0b0b0;  
+    text-align: center;
+    letter-spacing: 1px;
+    
+}
 
 .info p {
     margin: 1px 0;
     color: #08205c;
+}
+.button-container {
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 1px;
+    margin-top: 70px;
 }

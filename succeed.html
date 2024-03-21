@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Hotel Booking</h1>
+        <div class="login-box" onclick="location.href='login.html';">เข้าสู่ระบบ</div>
+        <div class="regis-box" onclick="location.href='regis.html';">สร้างบัญชี</div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="input-box">
+                <label for="checkin">Check-in Date:</label>
+                <input type="date" id="checkin" name="checkin" required style="margin-top: 10px;">
+            </div>
+            <div class="input-box">
+                <label for="checkout">Check-out Date:</label>
+                <input type="date" id="checkout" name="checkout" required style="margin-top: 10px;">
+            </div>
+            <div class="input-box"
+                <label for="numPeople">จำนวนผู้เข้าพัก:</label>
+                <input type="number" id="numPeople" name="numPeople" required style="margin-top: 10px;">
+            </div>
+        </div>
+        <form action="submit_booking.php" method="POST">
+
+            <section class="accommodations">
+                <div class="large-text">ยืนยันการจองสำเร็จ</div>
+            </section>
+            <div class="under-text">คุณได้จองห้องพักเรียบร้อยแล้ว ขอบพระคุณที่ใช้บริการของเรา</div>
+            <div class="button-container">
+                <button onclick="location.href='Booking.html';">กลับสู่หน้าหลัก</button>
+            </div>
+
+            
