@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+header {
+    background-color: #ffffff;
+    color: #1754d6;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+    text-align: center;
+}
+
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    
+}
+
+label,
+input{
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    width: 200px;
+}
+button {
+    display: block;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+button {
+    background-color: #1754d6;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    
+}
+
+button:hover {
+    background-color: #144bc3;
+}
+button[type="submit"] {
+    background-color: #4CAF50; /* สีพื้นหลัง */
+    color: white; /* สีข้อความ */
+    padding: 10px 20px; /* ขนาดของปุ่ม */
+    border: none; /* ไม่มีเส้นขอบ */
+    border-radius: 5px; /* ทำให้มีมุมโค้ง */
+    cursor: pointer; /* เปลี่ยนเป็นเคอร์เซอร์เมื่อนำเมาส์ไปวาง */
+    font-size: 16px; /* ขนาดตัวอักษร */
+    display: block; /* แสดงเป็นบล็อก (block element) */
+    margin: 0 auto; /* ให้มาริมิดเริ่มต้นและอยู่ตรงกลาง */
+    margin-top: 30px;
+}
+
+
+button[type="submit"]:hover {
+    background-color: #45a049; /* เปลี่ยนสีพื้นหลังเมื่อ hover */
+}
+.regis-box {
+   
+    color: #006eff; /* สีข้อความ */
+    padding: 10px 20px; /* ขนาดของกล่อง */
+    border-radius: 5px; /* ทำให้มีมุมโค้ง */
+    cursor: pointer; /* เปลี่ยนเป็นเคอร์เซอร์เมื่อนำเมาส์ไปวาง */
+    font-size: 12px; /* ขนาดตัวอักษร */
+    display: block; /* แสดงเป็นบล็อก (block element) */
+    margin-left: 130px; /* ให้มาริมิดเริ่มต้นและอยู่ตรงกลาง */
+    text-align: center; /* จัดให้อยู่ตรงกลางที่ตัวอักษร */
+}
